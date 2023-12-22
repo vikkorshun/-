@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Anime</title>
+  <link rel="shortcut icon" href="anime.jpg" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="header__title ">Аниме<br>плакаты!</h1>
+    
+    <nav>
+      <div class="container" onclick="myFunction(this)"></div>
+    <div class="sidenav">
+      <div class="bar1"><a href="index1.html">Каталог</a></div>
+      <div class="bar2"><a href="index2.html">2</a></div>
+      <a name="Отправить"></a>
+      <div class="bar3"><a href="#Отправить">Контакты</a></div>
+      
+    </div>
+</nav>
+<script>
+  function myFunction(x) {
+      x.classList.toggle("change");
+  }
+  </script>
+  </header>
+  <article class="article article_whitebg article_first">
+    <h2 class="black">Что же такое<br><em>аниме?</em></h2>
+    <p class="black">Аниме (японское: _BOS_ニメ, IPA: [aɲime] (слушать))-рисованная и компьютерная анимация, происходящая из Японии. В Японии и на японском языке аниме (термин, производный от английского слова animation) описывает все анимационные произведения, независимо от стиля или происхождения.</p>
+  </article>
+  <article class="article article_bluebg article_second">
+    <h2 class="white">Как купить?</h2>
+    <p class="white">Ты по-любому захочешь преобрести один из плакатов)</p>
+    <form class="form">
+      <input type="email" class="form_input" placeholder="E-mail">
+      <input type="text" class="form_input" placeholder="Имя">
+      <textarea class="form_textarea" placeholder="Ваше сообщение"></textarea>
+      <button class="form_button" type="button">Отправить</button>
+    </form>
+  </article>
+</body>
+</html>
